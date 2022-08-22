@@ -29,8 +29,8 @@ public class GraphQLService {
     @Autowired
     BookRepository bookRepository;
 
-//    @Value("classpath:resources.books.graphql")
-//    Resource resource;
+    @Value("classpath:resources.books.graphql")
+    Resource resource;
 
 
     private GraphQL graphQL;
